@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .navbar {
+            float: right;
+            width: 100%;
+            background-color:green;
+            align-items: center;
+            justify-content:space-between ;
+            margin-top: 25px;
+            
+           }
+           .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            float: left;
+            
+           }
+           .navbar ul li {
+            text-decoration: none;
+            color: green;
+            text-transform: uppercase;
+            padding: 5px 20px;
+            border: 1px solid #fff transparent ;
+            transition: 0.6s ease  ;
+          
+           }
+           .navbar ul li:hover {
+            background-color: #fff;
+            color: #000;
+          }
+          .navbar ul li.active {
+                 background-color: #fff;
+                color: #000;
+            }
+          .title{
+             position: absolute;
+             top: 50%;
+             left: 50%;
+             transform: translate(-50%,-50%);
+           }
+         .title p{
+            background-color: antiquewhite;
+            font-size: 20px;
+            font-style: italic;
+           }
+
+        </style>
+
+    <title> About us</title>
+</head>
+  <body>
+    <div class="navbar">
+        <ul>
+            
+            <li><a href="food.html">Home</a></li>
+            <li><a href="about us.html">About Us</a></li>
+            <li class="active"><a href="#">Contact Us</a></li>
+            <li><a href="our mission.html">Our Mission</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">sign Up</a></li>
+        </ul>
+    </div>
+    <div class="title">
+            <p>We would love to hear from you! If you have any questions, suggestions, or would like to get involved, please don't hesitate to reach out to us.</p>
+            
+            <p>You can contact us through the following methods:</p>
+            
+            <ul>
+              <li><strong>Email:</strong> info@example.com</li>
+              <li><strong>Phone:</strong>  1500-333-455</li>
+              <li><strong>Address:</strong> 123 Main Street, Hyderbad, India </li>
+            </ul>
+            <p> You can also email your suggestions and feedback at fooddonation@gmail.com </p>
+    </div>
+    </body>
+</html>
